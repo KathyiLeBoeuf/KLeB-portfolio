@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 0;
+}
+html {
+	font-size: 62.5%; } /* my default font sizing, 1rem = 10px*/
+  @media only screen and (max-width: 75em) { /* 750px 75em 1rem = 9px*/
+    html {
+      font-size: 56.25%; } }
+  @media only screen and (max-width: 56.25em) { /* 562px 56.25em1rem = 8px */
+    html {
+			font-size: 50%; } }
+	@media only screen and (max-width: 45em) { /* 450px 45em1rem = 7px*/
+		html {
+			font-size: 40%; } }
+  @media only screen and (min-width: 112.5em) { /* 1120px 112.5em1rem = 18px*/
+    html {
+      font-size: 75%; } }
