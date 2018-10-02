@@ -53,7 +53,6 @@ nav {
 	background-color:  #fff;
 }
 #about {
-	height: 30rem;
 	padding: 3rem;
 	background-color: #fff;
 	font-size: 1.7rem;
@@ -62,6 +61,7 @@ nav {
 #projects {
 	padding: 3rem;
 }
+
 .project-box {
 	display: flex;
 	flex-direction: row;

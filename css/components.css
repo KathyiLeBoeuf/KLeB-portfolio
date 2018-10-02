@@ -47,13 +47,20 @@ nav a.link:hover {
 	width: 16rem;
 	border: 1rem solid #777772;
 }
+/* ==================== ABOUT  */
+.summary {
+	/* font-size: 2rem; */
+	/* letter-spacing: .5rem; */
+	line-height: 3rem;
+}
+#projects-href {
+	margin-top: 6rem;
+}
 /* ================== PROJECTS */
 .box {
 	list-style-type: none;
 	margin: 2rem 0;
 	border: 1px black solid;
-	/* ???????????????? */
-	/* max-width: 30vw; */
 }
 .box ul {
 	text-align: center;
