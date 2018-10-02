@@ -8,4 +8,4 @@ Kathy I LeBoeuf
 
  ![Alt Text](url)
 
-![Screen shot of portfolio landing page] (img/portfolio-readme-img.png)
+![Screen shot of portfolio landing page](img/portfolio-readme-img.png)
