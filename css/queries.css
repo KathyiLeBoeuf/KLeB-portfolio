@@ -1,3 +1,18 @@
+@media only screen and (max-width: 750px) {
+	#header h1 {
+		font-size: 3.8rem;
+		padding: .9rem;
+		letter-spacing: .8rem;
+	}
+	nav {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.sticky + #address-topper {
+		padding-top: 5rem;
+	}
+}
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 @media only screen and (max-width: 630px) {
 	#header {
@@ -27,7 +42,7 @@
 		color: #EEE;
 	}
 	.sticky + #address-topper {
-		padding-top: 13rem;
+		padding-top: 12.5rem;
 	}
 	#address {
 		padding-left: 4rem;
@@ -43,6 +58,14 @@
 		width: 12rem;
 		border: .5rem solid #777772;
 	}
+	#icons {
+		padding: .8rem;
+	}
+	#icons img {
+		padding: .5rem .5rem .9rem .5rem;
+		height: 5rem;
+		width: auto;
+	}
 }
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 @media only screen and (max-width: 520px) {
@@ -55,6 +78,14 @@
 		padding-left: 2rem;
 		-webkit-clip-path: polygon(0 0,100% 0%, 80% 100%, 0% 100%);
 		clip-path: polygon(0 0,100% 0%, 80% 100%, 0% 100%);
+	}
+	#icons {
+		padding: .6rem;
+	}
+	#icons img {
+		padding: .4rem .4rem .8rem .4rem;
+		height: 4rem;
+		width: auto;
 	}
 }
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
@@ -79,6 +110,15 @@
 		margin-top: -9rem;
 		z-index: 1;
 	}
+
+#icons {
+	padding: .4rem;
+}
+	#icons img {
+		padding: .3rem .3rem .7rem .3rem;
+		height: 3rem;
+		width: auto;
+	}
 }
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 @media only screen and (max-width: 340px) {
@@ -86,3 +126,5 @@
 		padding-top: 17rem;
 	}
 }
+
+/* // nav 720 - 745 fix spacing */
